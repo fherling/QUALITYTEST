@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>de.frankherling.quality</groupId>
+    <artifactId>qualityexample</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <developers>
+        <developer>
+            <id>fherling</id>
+            <name>Frank Herling</name>
+            <organization>PRODYNA AG</organization>
+            <organizationUrl>http://www.prodyna.com</organizationUrl>
+            <email>frank.herling@prodyna.com</email>
+            <roles>
+                <role>developer</role>
+                <role>TPL</role>
+            </roles>
+            <timezone>0</timezone>
+        </developer>
+    </developers>
+
+    <scm>
+        <url>https://github.com/fherling/GITHUBTEST.git</url>
+        <developerConnection>
+            scm:git:https://github.com/fherling/GITHUBTEST.git
+        </developerConnection>
+    </scm>
+
+
+    <properties>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+</project>
