@@ -3,7 +3,7 @@ package de.frankherling.quality;
 /**
  * Created by fherling on 19/11/2016.
  */
-public class ApplicationStarter {
+public class ApplicationStarter1 {
 
 
     /**
@@ -12,7 +12,7 @@ public class ApplicationStarter {
      */
     public static void main(String[] args) {
         System.out.println("TEST");
-        ApplicationStarter starter = new ApplicationStarter();
+        ApplicationStarter1 starter = new ApplicationStarter1();
         starter.startApplication();
     }
 

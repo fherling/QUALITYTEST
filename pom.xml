@@ -6,7 +6,7 @@
 
     <groupId>de.frankherling.quality</groupId>
     <artifactId>qualityexample</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
 
     <url>http://www.frank-herling.de</url>
 
@@ -45,9 +45,10 @@
         <jdk.version>1.8</jdk.version>
 
         <version.compiler.plugin>3.6.0</version.compiler.plugin>
-        <sonar.host.url1>http://localhost:32770</sonar.host.url1>
+        <sonar.host.url2>http://localhost:32771</sonar.host.url2>
         <sonar.host.url>http://172.18.0.3:9000</sonar.host.url>
-
+        <sonar.language>java</sonar.language>
+        <sonar.profile>FindBugs</sonar.profile>
     </properties>
 
     <dependencies>
@@ -99,11 +100,6 @@
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.1.1</version>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-project-info-reports-plugin</artifactId>
-                <version>2.9</version>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>

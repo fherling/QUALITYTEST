@@ -1,26 +1,42 @@
 package de.frankherling.quality;
 
-import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 
 /**
  * Created by fherling on 19/11/2016.
  */
 public class ApplicationStarterTest {
-    @org.junit.Before
+    @Before
     public void setUp() throws Exception {
 
     }
 
-    @org.junit.After
+    @After
     public void tearDown() throws Exception {
 
     }
 
-    @org.junit.Test
-    public void startApplication() throws Exception {
+    @Test
+    public void testStartApplication() throws Exception {
         ApplicationStarter starter = new ApplicationStarter();
 
         starter.startApplication();
+
+        Assert.assertTrue(true);
+
+    }
+
+    @Test
+    public void testStartApplication2() throws Exception {
+        ApplicationStarter starter = new ApplicationStarter();
+
+        starter.startApplication();
+
+
+        Assert.assertTrue(true);
 
     }
 
