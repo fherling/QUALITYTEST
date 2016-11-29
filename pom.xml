@@ -48,7 +48,7 @@
         <sonar.host.url2>http://localhost:32771</sonar.host.url2>
         <sonar.host.url1>http://172.18.0.3:9000</sonar.host.url1>
         <sonar.language>java</sonar.language>
-        <sonar.profile>FindBugs</sonar.profile>
+       <!-- <sonar.profile>FindBugs</sonar.profile>-->
     </properties>
 
     <dependencies>
