@@ -27,9 +27,9 @@
 
     <scm>
         <url>https://github.com/fherling/QUALITYTEST.git</url>
-        <developerConnection>
-            scm:git:https://github.com/fherling/QUALITYTEST.git
-        </developerConnection>
+        <developerConnection>scm:git:https://github.com/fherling/QUALITYTEST.git</developerConnection>
+        <connection>scm:git:https://github.com/fherling/QUALITYTEST.git</connection>
+        <tag>v1.1</tag>
     </scm>
 
 
@@ -48,7 +48,7 @@
         <sonar.host.url2>http://localhost:32771</sonar.host.url2>
         <sonar.host.url1>http://172.18.0.3:9000</sonar.host.url1>
         <sonar.language>java</sonar.language>
-       <!-- <sonar.profile>FindBugs</sonar.profile>-->
+        <!-- <sonar.profile>FindBugs</sonar.profile>-->
     </properties>
 
     <dependencies>
@@ -92,15 +92,25 @@
                     <artifactId>sonar-maven-plugin</artifactId>
                     <version>3.1.1</version>
                 </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.5.3</version>
+
+                </plugin>
             </plugins>
 
         </pluginManagement>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
 
+            </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
-                <version>2.7</version>
+
             </plugin>
         </plugins>
     </build>
